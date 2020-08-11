@@ -1,0 +1,6 @@
+.idea
+
+bin/
+dist/
+
+.goreleaser.yml
