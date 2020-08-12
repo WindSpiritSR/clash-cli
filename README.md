@@ -1,4 +1,5 @@
 # clash-cli
+
 A CLI tool for clash
 
 # What can it do
@@ -12,4 +13,8 @@ A CLI tool for clash
 
 This tool uses bbolt to store the connection data with Clash, then it send GET/PUT requests to RESTful API of Clash to control it
 
+![Function Select](screenshot/menu.png)
 
+![Latency Test](screenshot/latency-test.png)
+
+![Proxy Log](screenshot/proxy-log.png)
