@@ -37,10 +37,16 @@ func (sp SwitchProxy) Run() error {
 			Name string
 		}
 
+		var proxyGroup []string
+		for name, group := range proxies.Proxies {
+			if group.Type.Is(C.Selector) && name != model.PROMPT_PROXY_ITEM_ALL {
+				proxyGroup = append(proxyGroup, name)
+			}
+		}
+
 		prompt := promptui.Select{
 			Label: model.PROMPT_PROXY_LABEL,
-			Items: []string{model.PROMPT_PROXY_ITEM_PROXY, model.PROMPT_PROXY_ITEM_DOMESTIC,
-				model.PROMPT_PROXY_ITEM_GLOBAL, model.PROMPT_PROXY_ITEM_OTHERS},
+			Items: proxyGroup,
 		}
 		_, proxyMode, err := prompt.Run()
 		if err != nil {
