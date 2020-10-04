@@ -43,10 +43,7 @@ const (
 	PROMPT_MODEL_LABEL = "Select Proxy Mode"
 
 	PROMPT_PROXY_LABEL             = "Proxy Mode"
-	PROMPT_PROXY_ITEM_PROXY        = "Proxy"
-	PROMPT_PROXY_ITEM_DOMESTIC     = "Domestic"
-	PROMPT_PROXY_ITEM_GLOBAL       = "Global"
-	PROMPT_PROXY_ITEM_OTHERS       = "Others"
+	PROMPT_PROXY_ITEM_ALL          = "GLOBAL"
 	PROMPT_PROXY_ITEM_LATENCY_TEST = "Latency Test"
 
 	PROMPT_PROXY_GLOBAL_GROUPNAME = "GLOBAL"
