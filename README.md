@@ -1,8 +1,8 @@
 # clash-cli
 
-[![Release](https://img.shields.io/github/v/release/SimonRiley-343/clash-cli.svg)](https://github.com/SimonRiley-343/clash-cli/releases/latest)
-[![License](https://img.shields.io/github/license/SimonRiley-343/clash-cli)](https://mit-license.org/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/SimonRiley-343/clash-cli)](https://goreportcard.com/report/github.com/SimonRiley-343/clash-cli)
+[![Release](https://img.shields.io/github/v/release/WindSpiritSR/clash-cli.svg)](https://github.com/WindSpiritSR/clash-cli/releases/latest)
+[![License](https://img.shields.io/github/license/WindSpiritSR/clash-cli)](https://mit-license.org/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/WindSpiritSR/clash-cli)](https://goreportcard.com/report/github.com/WindSpiritSR/clash-cli)
 
 A CLI tool for clash
 
